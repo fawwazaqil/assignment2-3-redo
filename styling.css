@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-bar{
+    background-color: #2A2C2E;
+    display: flex;justify-content: space-between;align-items: center;
+    padding: 20px 24px;
+    border-radius: 20px;
+}
+
+.parent-nav{
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    gap: 32px;
+
+    font-family: "Inter", sans-serif;
+    font-size:16px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.icon-3-login {
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    gap: 40px;
+    font-family: "Inter", monospace;
+    font-size:16px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.container-card{
+    background-color: #2A2C2E;
+    border: 1px solid black;
+    
+    display: flex;flex-direction:row; flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    gap:5px;
+    padding: 50px 400px;
+
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 24px;
+    flex: 1 1 calc(33.33% - 50px); /* Takes 1/3 of the row minus the gap */
+    
+}
+
+.gambar{
+    border-radius: 20px;
+}
+
+.dua-border{
+    display: flex;flex-direction: row;flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 30px;padding-bottom: 30px;
+}
+
+.union-border{
+    border-radius: 20px;border: 1px solid black; 
+    padding: 5px 10px;
+}
+
+.card-author{
+    
+}
+.card-title{
+
+}
+
+.inter-author {
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.6);
+
+  padding-bottom: 5px;
+}
+
+.inter-title-book {
+    font-family: "Inter", serif;
+    font-size:16px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+.inter-nav-parent {
+
+  }
+
+  .inter-
+  /* font weight
