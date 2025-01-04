@@ -2,19 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+
+
+  /* Media query for lower screen widths */
+  
+  @media (max-width: 768px) {
+    #icon-3-login-nowrap {
+        display:flex;flex-wrap:nowrap;
+    }
+
+    #navigation-bar-column {
+        display: flex;flex-direction: column;
+        gap: 50px;
+        /* padding left and right punca hilang
+        background putih bila screen kecik */
+        padding-left: 200px;
+        padding-right: 200px;
+
+    }
+    #background-color-white-id{
+        background-color: white;padding:0px;
+        display: flex;flex-direction:row; flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #navigation-bar-3-id{
+    }
+
+    #container-card-id{
+        padding:20px 80px;
+    }
+    }
+    @media (max-width: 1200px) {
+        #navigation-bar-column {
+            display: flex;flex-direction: column;
+            gap: 50px;
+            /* padding left and right punca hilang
+            background putih bila screen kecik */
+            padding-left: 200px;
+            padding-right: 200px;
+    
+        
+        
+    }}
+
+
+.background-color-white{
+    background-color: white;padding-bottom: 20px;padding-top:20px;
+    display: flex;flex-direction:row; flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navigation-padding{
+    padding: 20px 320px;
+}
 .navigation-bar{
     background-color: #2A2C2E;
-    display: flex;justify-content: space-between;align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
     padding: 20px 24px;
     border-radius: 20px;
+    gap: 50px;
+
+    flex: 1 1 0; /* Takes 1/3 of the row minus the gap */
+   
+}
+
+.logo-big-bookshelf{
+    display: flex;flex-direction: row;
+    align-items: center;justify-content: center;
+    gap: 10px;
 }
 
 .parent-nav{
     display: flex;flex-direction: row;flex-wrap: wrap;
+    align-items: center;justify-content: center;
+    
     gap: 32px;
-
     font-family: "Inter", sans-serif;
     font-size:16px;
     font-optical-sizing: auto;
@@ -25,6 +116,8 @@
 
 .icon-3-login {
     display: flex;flex-direction: row;flex-wrap: wrap;
+    align-items: center;justify-content: center;
+
     gap: 40px;
     font-family: "Inter", monospace;
     font-size:16px;
@@ -33,9 +126,22 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
+.all-books{
+    background-color: #F4CE47; 
+
+    display: flex;flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap:24px;
+    padding: 12px;
+    
+    flex-grow: 400px;
+    flex-shrink: 400px;
+
+}
 .container-card{
     background-color: #2A2C2E;
-    border: 1px solid black;
     
     display: flex;flex-direction:row; flex-wrap: wrap;
     justify-content: center;

@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
+    <!-- Example for Normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styling.css">
+    
 </head>
 <body>
-    <div style="background-color: white;padding-bottom: 20px;">
-    <div style="padding: 20px 320px;">
-        <div class="navigation-bar">
-            <div style="display: flex;flex-direction: row;gap: 10px;">
-            <div style="align-items: center;"><img src="img-icon/Logo.png" alt=""></div>
-            <div style="font-family:Inter,sans-serif;color: white;"><h1>BIG BOOKSHELF</h1></div>
+
+    <div class="background-color-white"id="background-color-white-id">
+    
+<!-- navigation bar - dari sini -->
+    <div class="navigation-bar-3" id="navigation-bar-3-id">
+        <div class="navigation-bar" id="navigation-bar-column">
+            <div class="logo-big-bookshelf">
+                <div><img src="img-icon/Logo.png" alt=""></div>
+                <div style="font-family:Inter,sans-serif;color: white;"><h1>BIG BOOKSHELF</h1></div>
             </div>
 
-            <div class="parent-nav">
+            <div class="parent-nav"id="parrent-nav-id">
                 <div>Books</div>
                 <div>Authors</div>
                 <div>What to Read?</div>
@@ -23,7 +29,7 @@
                 <div>About Us</div>
             </div>
 
-            <div class="icon-3-login">
+            <div class="icon-3-login" id="icon-3-login-nowrap">
                 <div style="display: flex;flex-direction: row;gap: 20px;align-items: center;">
                     <div><img src="img-icon/Search.png" alt=""></div>
                     <div><img src="img-icon/Cart.png" alt=""></div>
@@ -32,8 +38,10 @@
                 <div style="background-color: #F4CE47;padding: 16px 28px;border-radius: 16px;">LOGIN</div>
             </div>
         </div>
+    </div> 
+<!-- navigation bar - sampai sini -->
     </div>
-        <div style="display: flex;flex-direction: row;padding: 12px;gap:24px;justify-content: center;background-color: #F4CE47;">
+        <div class="all-books">
             <div style="font-family: inter,sans-serif;font-weight: 400;font-size: 48px;color: #F4BA30;">ALL BOOKS</div>
             <div style="font-family: inter,sans-serif;font-weight: 400;font-size: 48px;color: #F4BA30;">ALL BOOKS</div>
             <div style="font-family: inter,sans-serif;font-weight: 400;font-size: 48px;color: #2A2C2E;">ALL BOOKS</div>
@@ -42,7 +50,8 @@
         </div>
         
     </div>
-    <div class="container-card">
+
+    <div class="container-card" id="container-card-id">
         <div class="card">
             <div><img src="img-card/tellthewolvesimhome 1.png" alt="test" class="gambar"></div>
             <div class="gambar-details">
@@ -160,7 +169,7 @@
 
             <p style="font-size:18px; color: rgba(0, 0, 0, 0.87);"><strike style="color: rgba(0, 0, 0, 0.38);">$15.50</strike>$10.50</p>
         </div>
-
-    <div></div>
+    
+    </div>
 </body>
 </html>
