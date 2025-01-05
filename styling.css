@@ -15,9 +15,55 @@ html, body {
 }
 
 
+form > div,
+form > fieldset
+ {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+div > button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form > div > label {
+    width: 20ch;
+}
+fieldset{
+    width: 70%;
+}
+
+.class-input {
+    border-radius: 16px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.available-parent{
+    display: flex;flex-direction: row;flex-wrap: wrap;
+}
+.container-book-until-saveyourbook{
+    display: flex;flex-direction: column;flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2A2C2E;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
   /* Media query for lower screen widths */
   
   @media (max-width: 768px) {
+    #navigation-bar-bawah-id{
+        display: flex;flex-direction: column;
+
+    }
+    #details-bar-bawah-id{
+        display: flex;flex-direction: column;
+    }
+
     #icon-3-login-nowrap {
         display:flex;flex-wrap:nowrap;
     }
@@ -39,6 +85,7 @@ html, body {
         
     }
     #navigation-bar-3-id{
+        padding: 0;
     }
 
     #container-card-id{
@@ -53,10 +100,19 @@ html, body {
             background putih bila screen kecik */
             padding-left: 200px;
             padding-right: 200px;
-    
-        
-        
-    }}
+        }
+        #navigation-bar-3-id{
+            padding: 0;
+        }
+        #container-card-id{
+                padding:20px 50px;
+            }
+    }
+    @media (max-width: 1440px) {
+        #navigation-bar-3-id{
+            padding: 0px;
+        }
+    }
 
 
 .background-color-white{
@@ -68,7 +124,9 @@ html, body {
 
 
 
-
+.navigation-bar-3{
+    padding: 20px 200px;
+}
 
 
 
@@ -93,6 +151,18 @@ html, body {
 
     flex: 1 1 0; /* Takes 1/3 of the row minus the gap */
    
+}
+
+.navigation-bar-bawah{
+    background-color: #2A2C2E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 20px 24px;
+    gap: 50px;
 }
 
 .logo-big-bookshelf{
@@ -159,7 +229,7 @@ html, body {
     border: 1px solid black;
     border-radius: 20px;
     padding: 24px;
-    flex: 1 1 calc(33.33% - 50px); /* Takes 1/3 of the row minus the gap */
+    flex: 1 1 0; /* Takes 1/3 of the row minus the gap */
     
 }
 
@@ -202,3 +272,11 @@ html, body {
     color: rgba(0, 0, 0, 0.8);
   }
 
+
+  .details-bar-bawah{
+    background-color: #000; 
+    display: flex;flex-direction: row;
+    gap: 20px;align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;gap: 50px;
+  }
