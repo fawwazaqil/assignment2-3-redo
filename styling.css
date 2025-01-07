@@ -42,6 +42,8 @@ fieldset{
 
 .available-parent{
     display: flex;flex-direction: row;flex-wrap: wrap;
+    padding: 20px 0px;
+    
 }
 .container-book-until-saveyourbook{
     display: flex;flex-direction: column;flex-wrap: wrap;
@@ -280,3 +282,10 @@ fieldset{
     justify-content: space-between;
     padding: 20px 24px;gap: 50px;
   }
+
+  body > div > fieldset > form > div {
+    padding: 10px 0px;
+    align-items: center;
+  }
+
+
