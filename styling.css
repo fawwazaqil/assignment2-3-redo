@@ -14,9 +14,16 @@ html, body {
     box-sizing: border-box;
 }
 
+.input-group-text {
+    background-color: #2A2C2E;
+    color: #FFF;
+    border:none;
+}
 
-form > div,
-form > fieldset
+form {
+    width: 60%;
+}
+form > div
  {
     display: flex;
     flex-direction: row;
@@ -27,12 +34,15 @@ div > button{
     flex-direction: column;
     gap: 20px;
 }
-form > div > label {
+form > fieldset > div > label {
     width: 20ch;
 }
-fieldset{
-    width: 70%;
+
+.checkbox-enlarged{
+    transform: scale(2);
+    
 }
+
 
 .class-input {
     border-radius: 16px;
