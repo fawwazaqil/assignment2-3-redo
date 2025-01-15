@@ -21,7 +21,7 @@ html, body {
 }
 
 form {
-    width: 60%;
+    width: 80%;
 }
 form > div
  {
@@ -299,3 +299,7 @@ form > fieldset > div > label {
   }
 
 
+  .input-group {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }

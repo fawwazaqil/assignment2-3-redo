@@ -14,7 +14,7 @@
 <body>
     <div class="logo-big-bookshelf" style="justify-content:left; background-color:#2A2C2E;padding: 20px;margin:20px;border-radius: 20px;">
         <div><img src="img-icon/Logo.png" alt=""></div>
-        <div style="font-family:Inter,sans-serif;color: white;"><h1>BIG BOOKSHELF</h1></div>
+        <div style="font-family:Inter,sans-serif;color: white;"><h2 style="margin-top: 8px;">BIG BOOKSHELF</h2></div>
     </div>
 
 <div class="container-book-until-saveyourbook">
@@ -25,40 +25,60 @@
     
     <div class="input-group mb-3">
         <label class="input-group-text" for="Title">Title</label>
-        <input type="text" class="form-control" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp" id="Title" name="Title">
+        <input type="text" class="form-control rounded-start" placeholder="Your book title here. E.g. Harry Potter and The Fantastic Bootcamp" id="Title" name="Title">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Genre">Genre</label>
-        <input type="text" class="form-control" placeholder="Your book genre here. E.g. Fantasy" id="Genre" name="Genre">
+        <input type="text" class="form-control rounded-start" placeholder="Your book genre here. E.g. Fantasy" id="Genre" name="Genre">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Author">Author</label>
-        <input type="text" class="form-control" placeholder="Your book author here. E.g. J. K. Rowling" id="Author" name="Author">
+        <input type="text" class="form-control rounded-start" placeholder="Your book author here. E.g. J. K. Rowling" id="Author" name="Author">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Publisher">Publisher</label>
-        <input type="text" class="form-control" placeholder="Publisher of the book. E.g. Pustaka Melang" id="Publisher" name="Publisher">
+        <input type="text" class="form-control rounded-start" placeholder="Publisher of the book. E.g. Pustaka Melang" id="Publisher" name="Publisher">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Year-Published">Year Published</label>
-        <input type="number" class="form-control" placeholder="1994" id="Year-Published" name="Year-Published">
+        <input type="number" class="form-control rounded-start" placeholder="1994" id="Year-Published" name="Year-Published">
     </div>
-    <div class="input-group mb-3">
-        <label class="input-group-text" for="Availability">Availability</label>
-        <input value="Online"type="radio" id="Online" name="Availability" style="width: auto;" class="class-input">
-        <label class="input-group-text" for="Online">Online</label>
-        <input value="In-store" type="radio" id="In-store" name="Availability" style="width: auto;" class="class-input">
-        <label class="input-group-text" for="In-store">In store</label>
-        <input value="online-and-instore" type="radio"id="online-and-instore" name="Availability" style="width: auto;" class="class-input">
-        <label class="input-group-text" for="online-and-instore">Online & In Store</label>
-    </div>
+
+
+        <div class="row" style="padding-bottom: 16px;"><!-- Availability 12 columnns -->
+            <div class="col-md-3">
+                <label for="Availability"style="padding-left: 12px;">Availability</label>
+            </div>
+        
+        <div class="col-md-3">
+            <div class="form-check">
+                <input class="form-check-input" value="Online"type="radio" id="Online" name="Availability">
+                <label class="form-check-label" for="Online">Online</label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-check">
+                <input class="form-check-input" value="In-store" type="radio" id="In-store" name="Availability">
+                <label class="form-check-label" for="In-store">In store</label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-check">
+                <input class="form-check-input" value="online-and-instore" type="radio"id="online-and-instore" name="Availability" >
+                <label class="form-check-label" for="online-and-instore">Online & In Store</label>
+            </div>
+        </div>
+        </div>
+
+
+
     <div class="input-group mb-3">
         <label class="input-group-text" for="Pages">Pages</label>
-        <input type="text" class="form-control" placeholder="514" id="Pages" name="Pages">
+        <input type="text" class="form-control rounded-start" placeholder="514" id="Pages" name="Pages">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Language">Language</label>
-        <input type="text" class="form-control" placeholder="Language used in the book. E.g. English" id="Language" name="Language">
+        <input type="text" class="form-control rounded-start" placeholder="Language used in the book. E.g. English" id="Language" name="Language">
     </div>
  
 </fieldset>
@@ -67,11 +87,11 @@
 <legend>Registree Details</legend>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Name">Name</label>
-        <input type="text" class="form-control" placeholder="Your name. E.g. Lannah Yeon" id="Name" name="Name">
+        <input type="text" class="form-control rounded-start" placeholder="Your name. E.g. Lannah Yeon" id="Name" name="Name">
     </div>
     <div class="input-group mb-3">
         <label class="input-group-text" for="Email">Email</label>
-        <input type="email" class="form-control" placeholder="Your email. E.g. l.yeon@email.com" id="Email" name="Email">
+        <input type="email" class="form-control rounded-start" placeholder="Your email. E.g. l.yeon@email.com" id="Email" name="Email">
     </div>
     
 </fieldset>
